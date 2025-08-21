@@ -1,23 +1,17 @@
-Algoritmo matriz
+Algoritmo vector
 	
-	Definir mat, FILAS, COLUMNAS Como Entero
-	FILAS = 4
-	COLUMNAS = 3
-	Dimension mat[FILAS, COLUMNAS]
+	Definir vec, LONG Como Entero
+	LONG = 4
+	Dimension vec[LONG]
 	
 	//Cargar matriz:
-	Para i=0 Hasta FILA-1 Con Paso 1 Hacer
-		Para j=0 Hasta COLUMNA-1 Con Paso 1 Hacer
-			mat[i, j] = Aleatorio(10, 20)
-		Fin Para
+	Para i=0 Hasta LONG-1 Con Paso 1 Hacer
+		vec[i] = Aleatorio(10, 20)
 	Fin Para
 	
 	//Mostrar vector:
 	Para i=0 Hasta FILA-1 Con Paso 1 Hacer
-		Para j=0 Hasta COLUMNA-1 Con Paso 1 Hacer
-			Escribir Sin Saltar mat[i, j] " "
-		Fin Para
-		Escribir ""
+		Escribir Sin Saltar vec[i] " "
 	Fin Para
 	
 FinAlgoritmo
